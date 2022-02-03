@@ -234,3 +234,66 @@
     padding-top: 135px;
 }
 /* Booster Part End */
+/* Who Part Start */
+.who-part {
+    background-image: url(../img/who/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.who-part .container{
+    width: 700px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.who-header h5{
+    color: #fdfdfd;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-top: 40px;
+}
+.who-header p{
+    color: #757575;
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    padding-top: 10px;
+}
+.who-button-main{
+    padding-top: 40px;
+}
+.who-button1{
+    border: 1px solid #ffffff;
+    background: transparent;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 45px;
+    margin-right: 10px;
+}
+.who-button2{
+    border: none;
+    background: #ffe400  ;
+    color: #000000;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 30px;
+}
+/* Who Part End */
+/* Feature Part Start */
+.feature-header h5 {
+    color: #e8e8e8;
+    font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+.feature-header h6 {
+    color: #444444;
+    font-size: 27px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: -52px;
+}
+/* Feature Part End */
