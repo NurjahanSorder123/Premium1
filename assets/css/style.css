@@ -498,3 +498,159 @@
     font-family: 'Open Sans', sans-serif;
 }
 /* Service Part End */
+/* Pricing Part Start */
+.pricing-part{
+    background-image: url('../img/pricing/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+}
+.pricing-part .container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.pricing-header{
+    padding-top: 40px;
+}
+.pricing-header h5 {
+    color: #e8d100;
+    font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+.pricing-header h6 {
+    color: #444444;
+    font-size: 27px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: -53px;
+}
+.pricing-con-main{
+    padding: 80px 0px;
+}
+.most-popular2{
+    background: #ffffff;
+    margin-top: 45px;
+}
+.pricing-con2{
+    background: #ffffff;
+}
+    /* Pakage 1 Start */
+        /* Pakage Img Part Start */
+.img-part1{
+    background-image: url('../img/pricing/pakage/1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 30px 0;
+}
+.img-part1 h6{
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.price-p{
+    padding-top: 15px;
+}
+.price-p p{
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5px;
+}
+.price-p h5{
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.price-p h6 {
+    color: #ffffff;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 32px;
+}
+.img-part1 h4{
+    color: #dbdbdb;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 3px;
+    font-weight: 500;
+}
+        /* Pakage Img Part End */
+        /* Pakeage Content part Start */
+.price-content{
+    padding-top: 60px;
+}
+.price-content i {
+    color: #808080;
+    font-size: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.price-content p{
+    color: #808080;
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+}
+.price-cont2{
+    border-top: 1px solid #f0f0f0;
+    padding-top: 15px;
+}
+
+        /* Pakeage Content part End */
+.butto1 {
+    background: #FFFFFF;
+    border: none;
+    margin-top: 5px;
+    color: #444444;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    width: 309px;
+    height: 40px;
+}
+    /* Pakage 1 End */
+    /* Pakge 2 Start */
+.img-part2{
+    background-image: url('../img/pricing/pakage/2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 30px 0;
+}
+.img-part2 h6{
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.img-part2 h4{
+    color: #dbdbdb;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 3px;
+    font-weight: 500;
+}
+    /* Pakge 2 End */
+    /* Pakge 3 start */
+.img-part3{
+    background-image: url('../img/pricing/pakage/3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 30px 0;
+}
+.img-part3 h6{
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.img-part3 h4{
+    color: #dbdbdb;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 3px;
+    font-weight: 500;
+}
+    /* Pakge 3 End */
+/* Pricing Part End */
