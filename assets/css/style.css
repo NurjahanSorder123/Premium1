@@ -654,3 +654,159 @@
 }
     /* Pakge 3 End */
 /* Pricing Part End */
+/* Expert Part Start */
+.expert-part{
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.expert-part .container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.expert-con-main{
+    padding: 60px 0;
+}
+.expert-header h5 {
+    color: #f0f0f0;
+    font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+.expert-header h6 {
+    color: #444444;
+    font-size: 27px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: -53px;
+}
+.expert-content{
+    background: #ebebeb;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+.expert-content h5{
+    color: #444444;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 0;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.expert-content p{
+    color: #444444;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: -3px;
+    padding: 6px 0px;
+    border-top: 1px dashed #b7b7b7;
+}
+.expert-hover{
+    width: 100%;
+    height: 100%;
+    background: #ffe400;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+.expert-con-mai{
+    position: relative;
+}
+.expert-hover-content h5{
+    color: #000000;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    padding-top: 65px;
+}
+.expert-hover-content h6{
+    color: #000000;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: -3px;
+}
+.expert-hover-content p{
+    color: #000000;
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    padding: 0px 10px;
+    margin-top: 60px;
+}
+.expert-hover-icon i{
+    color: #6b6000;
+    font-size: 25px;
+    padding-right: 10px;
+    margin-top: 85px;
+    cursor: pointer;
+}
+.expert-con:hover .expert-hover{
+    opacity: 1;
+    transform: rotateY(360deg);
+    transition: 1.5s;
+}
+/* Expert Part End */
+/* Are Part Start */
+.are-part{
+    background-image: url('../img/are/Final-Projet-3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+}
+.are-content{
+    padding-bottom: 40px;
+}
+.are-content h5{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.are-content p{
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    color: #ffffff;
+    margin-top: -10px;
+}
+    /* Are Button Part Start */
+.are{
+    border: none;
+    background: #ffe300;
+    color: #000000;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 30px;
+    margin-top: 20px;
+    margin-right: 5px;
+    font-weight: 600;
+}
+.are2{
+    border: none;
+    background: #ffffff;
+    color: #000000;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 30px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+    /* Are Button Part End */
+/* Are Part End */
+/* News Part Start */
+.news-header h5 {
+    color: #e8e8e8;
+    font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+.news-header h6 {
+    color: #444444;
+    font-size: 27px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: -52px;
+}
+/* News Part End */
