@@ -1,0 +1,70 @@
+@media(max-width:576px){
+/* Background Part Start */
+.bg-part .container{
+    width: 100% !important;
+}
+.bg-part{
+    padding: 1px 0 !important;
+}
+.bg-con-main h5 {
+    font-size: 27px !important;
+  }
+.click{
+    margin-bottom: 40px !important;
+}
+.bg-con-main {
+    margin-top: 45px !important;
+    margin-left: 0px !important;
+  }
+/* Background Part End */
+/* Navbar Part Start */
+.navbar-part .container{
+    width: 100% !important;
+}
+.navbar-brand img{
+    width: 160px;
+}
+/* Navbar Part End */
+/* About Part Start */
+.about-part .container {
+    width: 100% !important;
+  }
+.about-button1 {
+    font-size: 15px !important;
+    padding: 10px 30px !important;
+  }
+.about-button2 {
+    font-size: 15px !important;
+    padding: 10px 20px !important;
+  }
+.about-header h6 {
+    font-size: 19px !important;
+    margin-top: -46px !important;
+  }
+.about-coni2{
+    margin-bottom: 15px !important;
+}
+/* About Part End */
+}
+@media(max-width:768px){
+
+}
+@media(max-width:992px){
+/* Navbar Part Start */
+.navbar-light .navbar-toggler {
+    color: rgb(251, 251, 251) !important;
+    border-color: rgb(251, 251, 251) !important;
+  }
+.navbar-toggler{
+    background-color: #ffffff;
+}
+/* Navbar Part End */
+/* About Part Start */
+.about-coni{
+    margin-top: 15px !important;
+}
+/* About Part End */
+}
+@media(max-width:1200px){
+
+}
