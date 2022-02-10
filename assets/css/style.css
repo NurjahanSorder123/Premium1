@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 .section{
     overflow: hidden;
 }
@@ -796,6 +797,13 @@
     /* Are Button Part End */
 /* Are Part End */
 /* News Part Start */
+.news-part{
+    padding: 90px 0;
+}
+.news-part .container{
+    width: 1000px;
+    margin: 0 auto;
+}
 .news-header h5 {
     color: #e8e8e8;
     font-size: 80px;
@@ -809,4 +817,174 @@
     font-weight: 600;
     margin-top: -52px;
 }
+.news-con-main{
+    padding: 60px 0; 
+    padding-bottom: 0px;
+}
+.news-con{
+    position: relative;
+}
+.news-button{
+    color: #444444;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    background: #f9f9f9;
+    border-radius: 50px;
+    padding: 7px 30px;
+    position: absolute;
+    top: 40%;
+    left: 19%;
+    cursor: none;
+    border: 1px solid #f9f9f9;
+}
+.head-content h5{
+    color: #444444;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-top: 40px;
+}
+.head-content p{
+    color: #969595;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+}
+.news-con h6{
+    color: #757575;
+    font-size: 13px;
+    font-family: 'Mulish', sans-serif;
+    text-align-last: left;
+    padding: 0 10px;
+}
+.read-more-button{
+    border: none;
+    color: #444444;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    background: #f9f9f9;
+    border-radius: 50px;
+    padding: 8px 25px;
+    margin-top: 10px;
+    transition: 1s;
+}
+.read-more-button:hover{
+    border: 1px solid #000000;
+    background: #ffe300;
+    transition: 1s;
+}
 /* News Part End */
+/* Contact Part Start */
+.content-part{
+    background-image: url('../img/content/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+}
+.content-part .container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.content-header h5 {
+    color: #e6e6e6;
+    font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+.content-header h6 {
+    color: #444444;
+    font-size: 27px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: -52px;
+}
+.contact-con-main{
+    padding-top: 60px;
+}
+.form{
+    margin-top: 15px;
+}
+.form-control{
+    color: #444444;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    padding: 11px 15px;
+}
+.massage{
+    margin-top: 15px;
+}
+textarea.form-control {
+    min-height: calc(25em + (0.75rem + 2px));
+}
+.form-floating>label {
+    top: -7px;
+    left: 4px;
+    color: #808080;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+.send{
+    color: #000000;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    background: #ffe300;
+    border: none;
+    padding: 7px 25px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+/* Contact Part End*/
+/* Map Part Start */
+.map-part{
+    background-image: url('../img/map/Final-Projet-3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.map-con h5{
+    color: #000000;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 50px 0;
+}
+.map-con i {
+    margin-top: 55px;
+    margin-left: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+/* Map Part End */
+/* Footer Part Start */
+.Footer-part{
+    background: #212020;
+    padding: 60px 0;
+}
+.Footer-part .container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.footer-img h5{
+    color: #ffffff;
+    font-size: 13px;
+    font-family: 'Mulish', sans-serif;
+    padding-top: 25px;
+}
+.footer-icon i{
+    color: #ffffff;
+    font-size: 25px;
+    padding-right: 15px;
+    margin-top: 42px;
+    cursor: pointer;
+}
+.copy-right{
+    color: #ffffff;
+    font-size: 13px;
+    font-family: 'Mulish', sans-serif;
+    background: #2d2d2d;
+    padding-top: 15px;
+    overflow: hidden;
+}
+/* Footer Part End */
