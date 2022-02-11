@@ -1,4 +1,7 @@
 @media(max-width:576px){
+section{
+  overflow: hidden !important;
+}
 /* Background Part Start */
 .bg-part .container{
     width: 100% !important;
@@ -41,14 +44,148 @@
     font-size: 19px !important;
     margin-top: -46px !important;
   }
+.hear-content h5 {
+    font-size: 20px !important;
+  }
+/* About Part End */
+/* Booster Part Start */
+.booster-part .container{
+  width: 100% !important;
+}
+.responsive-header h5 {
+  font-size: 50px !important;
+}
+/* Booster Part End */
+/* Who Part Start */
+.who-part .container{
+  width: 100% !important;
+}
+.who-button1 {
+  font-size: 13px !important;
+  padding: 10px 35px !important;
+}
+.who-button2 {
+  font-size: 13px !important;
+  padding: 10px 20px !important;
+}
+/* Who Part End */
+/* Feature Part Start */
+.feature-part .container {
+  width: 100% !important;
+}
+.feature-header h6 {
+  font-size: 17px !important;
+  margin-top: -38px !important;
+}
+.feature-header h5 {
+  font-size: 56px !important;
+}
+/* Feature Part End */
+/* Portfolio Part Start */
+.overfolio-icon.topover {
+  margin-top: -60% !important;
+}
+/* Portfolio Part End */
+/* Service Part Start */
+.service-content p {
+  margin-left: 20px !important;
+}
+.servic-section1 {
+  border-right: none !important;
+}
+.servic-section3 {
+  border-right: none !important;
+}
+.servic-section3 {
+  border-bottom: 2px solid #e6e6e6;
+}
+.service-header h6 {
+  font-size: 16px !important;
+  margin-top: -40px !important;
+}
+/* Service Part End */
+/* Pricing Part Start */
+.pricing-part .container{
+  width: 100% !important;
+}
+.pricing-header h5 {
+  font-size: 69px !important;
+}
+.pricing-header h6 {
+  margin-top: -50px !important;
+}
+.pricing-con-main {
+  padding-top: 0px !important;
+}
+/* Pricing Part End */
+/* Expeart Part Start */
+.expert-part .container{
+  width: 100% !important;
+}
+.expert-header h5 {
+  font-size: 72px !important;
+}
+.expert-hover-content{
+  margin-top: 40px;
+}
+/* Expeart Part End */
+/* Are Part Start */
+.are-content h5 {
+  font-size: 29px !important;
+}
+/* Are Part End */
+/* News Part Start */
+.news-part .container{
+  width: 100% !important;
+}
+/* News Part End */
+/* Content Part Start */
+.content-part .container{
+  width: 100% !important;
+}
+.content-header h5 {
+  font-size: 59px !important;
+}
+.content-header h6 {
+  font-size: 25px !important;
+  margin-top: -45px !important;
+}
+/* Content Part End */
+/* Footer Part Start */
+.Footer-part .container{
+  width: 100% !important;
+}
+.footer-icon{
+  padding-bottom: 25px !important;
+}
+/* Footer Part End */
+}
+
+@media(max-width:768px){
+/* About Part Start */
 .about-coni2{
-    margin-bottom: 15px !important;
+  margin-bottom: 15px !important;
 }
 /* About Part End */
+/* Booster Part Start */
+.light-con{
+  display: none !important;
 }
-@media(max-width:768px){
+.run-responsive {
+  display: none !important;
+}
+.responsive-con-mai {
+  padding-top: 25px !important;
+}
+/* Booster Part End */
+/* Work Part Start */
+.button3-section {
+  margin-left: 76px !important;
+  margin-top: 15px !important;
+}
+/* Work Part End */
+}
 
-}
 @media(max-width:992px){
 /* Navbar Part Start */
 .navbar-light .navbar-toggler {
@@ -64,7 +201,56 @@
     margin-top: 15px !important;
 }
 /* About Part End */
+/* Booster Part Start */
+.light-con{
+  display: none !important;
 }
+.run-responsive {
+  display: none !important;
+}
+.responsive-con-mai {
+  padding-top: 25px !important;
+}
+/* Booster Part End */
+/* Expert Part Start */
+.expert-hover-content h5 {
+  font-size: 20px;
+  padding-top: 40px;
+}
+.expert-hover-content p {
+  font-size: 12px !important;
+  margin-top: 15px !important;
+}
+.expert-hover-icon i {
+  margin-top: 25px !important;
+}
+/* Expert Part End */
+/* News Part Start */
+.date-button{
+  display: none !important;
+}
+.news-con-ma{
+  margin-top: 25px !important;
+}
+/* News Part End */
+}
+
 @media(max-width:1200px){
+/* Portfolio Part Start */
+.port-overfolo {
+  width: 112% !important;
+}
+.overfolio-icon {
+  margin-top: -40% !important;
+}
+/* Portfolio Part End */
+/* Service Part Start */
+.service-img-con{
+  display: none !important;
+}
+.serveice-open-main{
+  text-align: center;
+}
+/* Service Part End */
 
 }
